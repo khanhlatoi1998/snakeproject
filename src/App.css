@@ -1,0 +1,54 @@
+.Game-Snake {
+	width : 350px  ; 
+	height : 350px ; 
+	border : 2px solid black ; 
+	margin : 40px auto ;
+	position : relative ;
+}
+
+.Snake-Dot {
+	width : 2% ; 
+	height : 2%  ;
+	background-color : black ; 
+	border : 1px solid white ; 
+	position : absolute ; 
+	z-index : 2 ;
+}
+
+.Food {
+	width : 2% ; 
+	height : 2%  ;
+	background-color : red ; 
+	border : 1px solid white ; 
+	position : absolute ; 
+	z-index : 1 ;
+}
+
+.ShowMenu {
+	background-color : white; 
+	width : 150px ;
+	height : 60px ; 
+	border : 1px solid black ; 
+	border-radius : 15px ; 
+	margin : 70px auto ;
+}
+
+.content {
+	text-align : center ; 
+	color : red ;
+	margin-top : 5px ;
+}
+
+.ShowMenu button {
+	border : none ; 
+	background-color : transparent ;
+	margin-left : 122px ;
+}
+
+.Button-control {
+	position : relative ;	
+	margin : 20px auto ;
+	background-color : white ;
+	width : 250px;
+	text-align : center ; 
+}
